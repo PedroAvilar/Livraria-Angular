@@ -5,9 +5,8 @@ import { LivroListaComponent } from "./livro-lista/livro-lista.component";
 import { LivroDadosComponent } from "./livro-dados/livro-dados.component";
 import { ControleEditoraService } from "./controle-editora.service";
 import { ControleLivrosService } from "./controle-livros.service";
-import { RouterModule } from "@angular/router";
-import { routes } from "./app.routes";
 import { FormsModule } from "@angular/forms";
+import { AppRoutingModule } from "./app-routing.module";
 
 @NgModule({
     declarations: [
@@ -17,7 +16,7 @@ import { FormsModule } from "@angular/forms";
     ],
     imports: [
         BrowserModule,
-        RouterModule.forRoot(routes),
+        AppRoutingModule,
         FormsModule
     ],
     providers: [
