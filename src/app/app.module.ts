@@ -7,6 +7,7 @@ import { ControleEditoraService } from "./controle-editora.service";
 import { ControleLivrosService } from "./controle-livros.service";
 import { RouterModule } from "@angular/router";
 import { routes } from "./app.routes";
+import { FormsModule } from "@angular/forms";
 
 @NgModule({
     declarations: [
@@ -16,7 +17,8 @@ import { routes } from "./app.routes";
     ],
     imports: [
         BrowserModule,
-        RouterModule.forRoot(routes)
+        RouterModule.forRoot(routes),
+        FormsModule
     ],
     providers: [
         ControleEditoraService,
