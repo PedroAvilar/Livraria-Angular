@@ -31,7 +31,7 @@ export class LivroListaComponent {
     this.livros = this.servLivros.obterLivros();
   }
   //Método obterNome que chama servEditora.
-  obterNome = (codEditora: Number): string => {
+  obterNome = (codEditora: number): string => {
     return this.servEditora.getNomeEditora(codEditora);
   }
 }

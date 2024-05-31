@@ -33,7 +33,7 @@ export class LivroDadosComponent {
   /*Método incluir que preenche o aributo autores e
   invoca incluir de controle-livros.service.*/
   incluir = (): void => {
-    this.livro.autores = this.autoresForm.split("\n");
+    this.livro.autores = this.autoresForm.split("\n").filter(author => author.trim() !== '');
     this.servLivros.incluir(this.livro);
     this.router.navigateByUrl("/lista");
   }
