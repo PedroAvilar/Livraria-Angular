@@ -1,3 +1,16 @@
+# Faculdade Estácio
+## Curso Desenvolvimento Full Stack
+## Mundo 2 - Nível 4
+## Pedro Wilson Araújo Avilar
+## Matrícula 2023 0916 8251
+
+### Página de listagem e cadastro de livros com Angular
+Implementado com Angular, usando HTML, TypeScript e Bootstrap, criando um front-end para Web, utilizando serviços injetáveis, componentes e gerenciamento de formulários.
+![Captura de tela.](capturas-de-tela/Captura_de_tela_Catálogo.png)
+![Captura de tela.](capturas-de-tela/Captura_de_tela_Novo.png)
+
+
+
 # LivrosAngular
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.1.
